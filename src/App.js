@@ -12,6 +12,7 @@ import './App.css';
 //import {Inline} from './components/inline'
 //import {Form} from './components/form'
 import {Des} from './sample/des'
+//import { Text, StyleSheet } from 'react-native';
 function App() {
   return (
     <div>

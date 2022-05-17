@@ -1,14 +1,21 @@
 import './des.css'
 //import React,{useState } from 'react'
+
 export const Des=()=>{
     
     const design={
-        fontSize:'30px',
-        color:'black' ,
+        fontSize:'50px',
+        color:'azure' ,
         background:'black',
         paddingLeft:'20cm',
         marginTop:'0px',
         paddingTop:'2cm',
+        marginRight:'-3cm',
+        textShadow:'4.6px 4px 6px darkgrey ',
+        boxShadow:'4px 4px 2px white'
+
+
+
 
         
 
@@ -29,12 +36,15 @@ export const Des=()=>{
 
   
     
-    return( <div  >
+    return( 
+         <div  >
            
            <switch  >
                
                <div  style={design}>
+                   NFT
                        <div className='rect'>
+                           
                        <button onMouseOver={hoverin} onMouseOut={hoverout}id="but1">HOME</button>
                        
                        </div>
@@ -52,6 +62,7 @@ export const Des=()=>{
            <div className='body'>
                
             <input onMouseEnter={hoverin} onMouseOut={hoverout} className='inp' placeholder="ENTER  AMOUNT"></input>
+            
             <button onMouseOver={hoverin} onMouseOut={hoverout} onClick={click} id='but'>Click</button>
            </div>
 

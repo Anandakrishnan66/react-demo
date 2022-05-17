@@ -47,6 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 4px 4px 2px white;
     
     
     
@@ -64,6 +65,7 @@
 
     border-bottom-color:darkgray ; 
     cursor: pointer;
+    box-shadow: 4px 4px 3px darkslategrey;
          
     
     
@@ -77,6 +79,8 @@
     background-color: azure;
     box-sizing: border-box;
     cursor: pointer;
+    box-shadow: 4px 4px 3px rgb(27, 44, 44);
+    
     
 
 }
@@ -98,4 +102,5 @@
    background-color: black;
    padding-top: 2cm;
    color: red;
+   text-shadow: aqua;
 }
